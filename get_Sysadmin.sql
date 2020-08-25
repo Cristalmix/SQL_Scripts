@@ -5,4 +5,4 @@ SELECT l.name AS NombreUsuario, p.type_desc AS TipoUsuario, p.is_disabled, creat
 FROM sys.syslogins AS l
 	 INNER JOIN sys.server_principals AS p ON l.sid = p.sid
 WHERE sysadmin = 1
-ORDER BY 1 ASC
+ORDER BY 1 ASC 
